@@ -1,17 +1,11 @@
 {
-   "Name": "Example.Mod",
-   "Description": "A cool mod that does cool stuff",
+   "Name": "Neinguar.GunGameOnly",
+   "Description": "Do you like stupid gun game? okay but do you REALLLLLY like stupid gun game, then this is for you",
    "Version": "1.0.0",
-   "DownloadLink": "https://northstar.thunderstore.io/package/download/Example/Mod/",
+   "DownloadLink": "https://github.com/NoCatt/GunGameOnly",
 
-   "LoadPriority": 0,
+   "LoadPriority": 3,
    "ConVars": [],
-   "Scripts": [{
-      "Path": "example.nut",
-      "RunOn": "(CLIENT || SERVER) && MP",
-      "ClientCallback": {
-         "Before":"example_callback"
-      }
-   }],
+   "Scripts": [],
    "Localisation": []
 }
